@@ -1,11 +1,16 @@
 <?php
-
+echo "=========================================================";
+echo '<br>';
 echo 'Hello PLP';  //does not return
 echo '<br>';   // can store HTML value
 // echo '<input></input>';
 print 'Hello Pam';  //can return value 1
 echo '<br>';
 echo "=========================================================";
+echo '<br>';
+echo "=========================================================";
+
+echo '<br>';
 $result = print "";
 
 echo $result;
@@ -24,6 +29,8 @@ $Fname = "Mark";
 $Lname = "Datus";
 $age = 21;
 $favorite_color = "Red";
+
+
 
 echo 'My name is ' . ' ' . $Fname . " " . $Lname . ' I am ' . $age . ' and I love the color ' . $favorite_color;
 echo '<br>';
@@ -52,22 +59,3 @@ $Total = $price * $quantity;
 
 
 echo "I bought $quantity $item_name that is $price for one and the total bill is $$Total";
-
-
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
