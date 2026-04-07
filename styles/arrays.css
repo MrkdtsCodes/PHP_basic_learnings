@@ -28,6 +28,13 @@ main{
     flex-direction: column;
 }
 
+.box_one table{
+    border: 1px solid black;
+}
+
+.box_one tr,td,th{
+    border: 1px solid black;
+}
 .box_two{
     border: 2px solid black;
     display: flex;
@@ -36,12 +43,18 @@ main{
 
 }
 
-.box_two span{
+.fruit-container{
+
     border: 2px solid red;
+    padding: 10px;
     display: flex;
     gap: 10px;
     justify-content: center;
 
+}
+
+.fruit-container div{
+    padding: 10px;
 }
 
 .box_three{
